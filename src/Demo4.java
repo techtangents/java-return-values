@@ -21,11 +21,12 @@ public class Demo4 {
         }
     }
 
-    public static void callFoo() {
+    public static void main(final String[] args) {
         final Foo ret = foo("ohai");
         System.out.println("ret.toaster = " + ret.toaster());
         System.out.println("ret.muffin = " + ret.muffin());
     }
+
     public static Foo foo(final String input) {
         return Foo.nuFoo("oh", "yeah");
     }

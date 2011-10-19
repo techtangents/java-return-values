@@ -1,5 +1,5 @@
 public class Demo1 {
-    public static void callFoo() {
+    public static void main(final String[] args) {
         final String[] ret = new String[2];
         foo(ret, "ohai");
         System.out.println("ret[0] = " + ret[0]);
